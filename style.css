@@ -107,3 +107,73 @@ header h1 {
     color: white;
     font-size: 22px;
 }
+/* CHALLENGE CARD */
+.challenge-card {
+    background: #111;
+    border: 2px solid #1E90FF;
+    border-radius: 15px;
+    width: 85%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 15px #1E90FF55;
+}
+
+.challenge-card h2 {
+    font-size: 20px;
+    color: #1E90FF;
+}
+
+.challenge-card .difficulty span {
+    color: #1E90FF;
+}
+
+.challenge-card .reward {
+    margin-top: 5px;
+    color: #1E90FF;
+}
+
+.challenge-card .desc {
+    margin: 10px 0;
+    color: #ccc;
+}
+
+.record-btn {
+    width: 100%;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid #1E90FF;
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 0 10px #1E90FF55;
+    cursor: pointer;
+}
+
+.record-btn:hover {
+    background: #1E90FF33;
+}
+
+/* COMPLETED CHALLENGES */
+.completed-section {
+    margin-top: 30px;
+}
+
+.completed-section h3 {
+    color: #1E90FF;
+}
+
+.completed-list {
+    width: 85%;
+    margin: 10px auto;
+}
+
+.completed-item {
+    background: #111;
+    border: 1px solid #1E90FF55;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
