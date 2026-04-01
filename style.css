@@ -1,0 +1,109 @@
+/* GENERAL */
+body {
+    margin: 0;
+    padding: 0;
+    background: #0D0D0D;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* TITLE */
+header h1 {
+    margin-top: 30px;
+    font-size: 32px;
+    letter-spacing: 3px;
+    color: #1E90FF; /* Electric Blue */
+}
+
+/* DASHBOARD CARDS */
+.dashboard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    gap: 15px;
+    width: 90%;
+}
+
+.card {
+    background: #111;
+    border: 2px solid #1E90FF;
+    border-radius: 12px;
+    width: 120px;
+    padding: 15px 0;
+    box-shadow: 0 0 10px #1E90FF55;
+}
+
+.card span {
+    font-size: 22px;
+}
+
+.card p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.card h2 {
+    margin: 5px 0 0;
+    font-size: 20px;
+    color: white;
+}
+
+/* MAIN BUTTONS */
+.buttons {
+    margin: 25px 0;
+}
+
+.buttons button {
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid #1E90FF;
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 0 10px #1E90FF55;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background: #1E90FF33;
+}
+
+/* WORLD PREVIEW */
+.world-preview {
+    margin-top: 30px;
+}
+
+.preview-box {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    background: #111;
+    border: 2px solid #1E90FF;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #1E90FF55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BOTTOM NAV */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #111;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #1E90FF;
+}
+
+.bottom-nav a {
+    color: white;
+    font-size: 22px;
+}
